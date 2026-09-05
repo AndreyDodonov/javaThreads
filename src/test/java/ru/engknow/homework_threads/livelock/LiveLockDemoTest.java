@@ -1,5 +1,6 @@
-package ru.engknow.homework_threads;
+package ru.engknow.homework_threads.livelock;
 
+import ru.engknow.homework_threads.livelock.LiveLockDemo;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;

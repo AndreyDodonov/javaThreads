@@ -1,4 +1,4 @@
-package ru.engknow.homework_threads;
+package ru.engknow.homework_threads.livelock;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

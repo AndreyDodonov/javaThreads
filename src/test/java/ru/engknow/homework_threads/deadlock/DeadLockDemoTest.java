@@ -1,4 +1,4 @@
-package ru.engknow.homework_threads;
+package ru.engknow.homework_threads.deadlock;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
