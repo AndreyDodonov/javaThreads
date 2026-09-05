@@ -39,6 +39,13 @@ public class AlternatingThreads {
 
         return new Thread[]{printerOne, printerTwo};
     }
+    
+    public void stop() {
+        synchronized (lock) {
+            running = false;
+            lock.notifyAll();
+        }
+    }    
 
     private void printLoop(boolean isOne) {
         while (true) {
